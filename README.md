@@ -5,7 +5,7 @@ The deep model we have built is an attention-lstm model.
 
 A linear-chain CRF is used to tag the feature vectors.
 
-The system gets a rawdata file, extracts the entities in each segment, and exports the results to a result file.
+The system gets a test corpus and outputs the results of precision, recall and F-measure value.
 
 There are five types of entities which can be recognized by the extractor.(Person, Loction, Organization, Company, Product)
 
